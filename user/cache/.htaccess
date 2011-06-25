@@ -1,0 +1,6 @@
+### HABARI DENY CACHE FILE ACCESS START
+<FilesMatch "\.(data|cache)$">
+Order deny,allow
+deny from all
+</FilesMatch>
+### HABARI DENY CACHE FILE ACCESS END
