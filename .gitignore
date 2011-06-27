@@ -1,5 +1,7 @@
 .htaccess
 config.php
+config.php.proxy
+config.php.noproxy
 user/habari.db
 user/themes/*
 user/plugins/*
