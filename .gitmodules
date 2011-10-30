@@ -1,3 +1,18 @@
 [submodule "system"]
 	path = system
 	url = https://github.com/habari/system.git
+[submodule "user/themes/outpost"]
+	path = user/themes/outpost
+	url = git@github.com:michaeltwofish/outpost.git
+[submodule "user/themes/dojo"]
+	path = user/themes/dojo
+	url = git@github.com:michaeltwofish/Dojo.git
+[submodule "user/themes/minimal"]
+	path = user/themes/minimal
+	url = git@github.com:michaeltwofish/minimal.git
+[submodule "user/themes/dark-autumn"]
+	path = user/themes/dark-autumn
+	url = git@github.com:dmondark/dark-autumn.git
+[submodule "user/themes/habari-intellect"]
+	path = user/themes/habari-intellect
+	url = git@github.com:michaeltwofish/habari-intellect.git
