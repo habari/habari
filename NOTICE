@@ -1,0 +1,14 @@
+= COPYRIGHT NOTICES =
+This product includes code and libraries developed by third parties, which are governed by different licenses.  These components, and their licenses, are listed below.
+
+== JQUERY ==
+Copyright (c) 2007 John Resig, http://jquery.com/
+JQuery is available under either a GPL or MIT license; Habari has elected to use the MIT license.  See doc/MIT.txt for a copy of the MIT license.
+  http://docs.jquery.com/Licensing
+
+== BLUEPRINT ==
+Copyright (c) 2007 Olav Bjorkoy (http://bjorkoy.com)
+Blueprint CSS Framework was made available under MIT license. See doc/MIT.txt for a copy of the MIT license.
+
+= CREDITS = 
+The Habari Project is a community driven effort and is the product of the efforts of the writers of code, documentation, plugins and themes as well as the users. The Project Management Committee is responsible for helping guide and coordinate all of these contributions. A current list of Project Management Committee members can be found at http://wiki.habariproject.org/en/Cabal#Current_Cabal_Members.
