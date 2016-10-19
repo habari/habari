@@ -1,0 +1,50 @@
+#hconsole_button {
+	width: 80px;
+	padding: 5px;
+	background: #c60;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-size: 11px;
+	z-index: 999;
+	color: white;
+	display: block;
+}
+
+#hconsole {
+	line-height: 11px;
+	font-size: 11px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	background: #222;
+	z-index: 998;
+}
+
+#hconsole_debug {
+	font-family: monospace; font-size: 11px; padding: 1em 2em; margin: 1em; background: #333; color: #93C763; border: 1px solid #000; overflow: auto; max-height: 400px;
+}
+#hconsole_form {
+	padding: 1em 2em; margin: 0; text-align: left; color: #eee; position: relative;
+}
+
+#hconsole_edit_filler {
+	width:100%; position:realtive; height:180px; margin:0; padding:0;
+}
+#hconsole_edit {
+	position:absolute; left:0; top:0; height:180px; padding-top:10px; width:100%;
+}
+
+#hconsole .alt { background:#222; }
+#hconsole table { overflow:auto; empty-cells:show; border-collapse:collapse; margin:0 0 2em; width:100%; font-size:1em; }
+#hconsole tr { margin:0; padding:0; }
+#hconsole caption { caption-side:top; margin:0; padding:0.75em; font:1.2em serif; border:1px solid #444; border-width:0 0 2px; background:#f3f3f3; color:#999; }
+#hconsole th, #hconsole td { vertical-align:top; padding:0.65em 1em; border:1px dotted #000; border-width:0 0 1px 1px; white-space:normal; }
+#hconsole tr td:first-child, #hconsole tr th:first-child, #hconsole th.first, #hconsole td.first { border-left:none; background-image:none; }
+#hconsole th { text-transform:uppercase; text-align:left; font-weight:normal; font-family:serif; background:#222; }
+#hconsole th.first, #hconsole td.first, #hconsole tbody th { border-left:none; }
+#hconsole table { border-bottom:3px solid #444; }

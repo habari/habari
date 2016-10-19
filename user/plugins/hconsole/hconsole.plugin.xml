@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+	<name>HConsole</name>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+	<url>http://habariproject.org/</url>
+	<author url="http://habariproject.org/">Habari Community</author>
+	<guid>7cda959b-28df-4ce1-ad9a-7a1723727e0b</guid>
+	<version>0.1</version>
+	<description><![CDATA[A live Habari Console.]]></description>
+	<copyright>2009</copyright>
+
+	<help>
+		<value>
+		<![CDATA[
+<p>You can evaluate just code and have the result shown below the text box:</p>
+<pre><code>echo HABARI_PATH;
+echo "foobar";</code></pre>
+<p>Or, you can add filters, actions, theme functions, xmlrpc functions. For example to filter post title:</p>
+<pre><code>filter_post_title {
+	function foo($a) {
+		return $a . " BOOOO!";
+	}
+
+	function boo($a) {
+		return $a . " FOOOO!";
+	}
+}</code ></pre>
+<p>Or an action:</p>
+<pre><code>action_init {
+	function foo($a) {
+		echo "PONIES!";
+	}
+}</code></pre>
+		]]>
+		</value>
+	</help>
+
+	<provides>
+		<feature url="http://wiki.habariproject.org/en/feature/console">console</feature>
+	</provides>
+</pluggable>
+
