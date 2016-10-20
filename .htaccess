@@ -1,0 +1,9 @@
+### HABARI START
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !=/favicon.ico
+RewriteBase /
+RewriteRule . index.php [PT]
+RewriteRule ^(system/(classes|handlers|locale|schema|$)) index.php [PT]
+### HABARI END
